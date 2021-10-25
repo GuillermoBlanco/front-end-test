@@ -1,0 +1,9 @@
+{
+    "name": "frontend-test",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "start": "start npm start --prefix Server && start npm start --prefix FE/free-now-amazing-frontend"
+    }
+  }
+  

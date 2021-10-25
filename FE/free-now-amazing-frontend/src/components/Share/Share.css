@@ -1,0 +1,8 @@
+li.Share {
+  margin: 0;
+  padding: 36px 0 36px 84px;
+  background-image: url('./share.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 80px;
+}

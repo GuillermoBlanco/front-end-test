@@ -1,0 +1,21 @@
+.Info {
+  border: 0.1em;
+  border-color: grey;
+  border-style: ridge;
+}
+
+.name {
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+li.state::before {
+  content: "•"; 
+  color: red;
+  display: inline-block; 
+  font-size: 5em;
+}
+
+li.state.active::before {
+  color: green;
+}
